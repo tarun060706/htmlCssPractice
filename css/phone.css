@@ -1,0 +1,14 @@
+/* navbar */
+#navbar {
+    flex-direction: column;
+}
+/* home section */
+#home {
+    height: 370px;
+}
+#home::before {
+    height: 480px;
+}
+#home p {
+    font-size: 13px;
+}

@@ -1,0 +1,98 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 2200px;
+    background-image: url("../imges/man-1868632_1280.jpg");
+    background-size: cover;
+}
+.left {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    line-height: 15px;
+    left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.left  img {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+.mid { 
+    display: inline-block;
+    width: 33%;
+    margin: 20px auto;
+    border: 2px solid green;
+    margin-left: 500px;
+    margin-right: 600px;
+    margin-top: -200px;
+    
+}
+.right {
+    display: inline-block;
+    position: relative;
+    left: 1250px;
+    top: -100px;
+    border: 2px dotted gray ;
+    height: 25px;
+}
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    padding-top: 1px;
+}
+.btn:hover {
+    background-color: gray;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.navbar li {
+     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover, .navbar li a:active {
+    text-decoration: underline;
+    color: blue;
+}
+.container {
+    border: 2px solid white;
+    width: 33%;
+    padding: 50px;
+    position: relative;
+    left: 50px;
+    border-radius: 10px;
+}
+.form-group input {
+    text-align: center;
+    display: flex;
+    width: 300px;
+    margin: 5px auto;
+    font-size: 20px;
+}
+.container h2 {
+    text-align: center;
+}
+.container .btn {
+    text-align: center;
+    display: block;
+    width: 300px;
+    margin: auto;
+    font-size: 20px;
+    color: aliceblue;
+    
+}

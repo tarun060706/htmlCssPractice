@@ -1,0 +1,465 @@
+#container {
+    border-style: solid;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+}
+#b1 {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    
+}
+#b2 {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+}
+#b3 {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+#b4 {
+    display: inline-block;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+#b5 {
+    display: inline-block;
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+}
+
+#container2 {
+    border-style: solid;
+    height: 100px;
+    display: flex;
+    flex-direction:row-reverse;
+}
+#b21 {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    
+}
+#b22 {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+}
+#b23 {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+#b24 {
+    display: inline-block;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+#b25 {
+    display: inline-block;
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+}
+#container3 {
+    border-style: solid;
+    height: 100px;
+    display: flex;
+    flex-direction:column;
+}
+#b31 {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    
+}
+#b32 {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+}
+#b33 {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+#b34 {
+    display: inline-block;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+#b35 {
+    display: inline-block;
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+}
+#container4 {
+    border-style: solid;
+    height: 100px;
+    display: flex;
+    flex-direction:column-reverse
+}
+#b41 {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    
+}
+#b42 {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+}
+#b43 {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+#b44 {
+    display: inline-block;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+#b45 {
+    display: inline-block;
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+}
+
+
+#container {
+    border-style: solid;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+#b1 {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    
+}
+#b2 {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+}
+#b3 {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+#b4 {
+    display: inline-block;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+#b5 {
+    display: inline-block;
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+}
+#container2 {
+    border-style: solid;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+#b21 {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    
+}
+#b22 {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+}
+#b23 {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+#b24 {
+    display: inline-block;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+#b25 {
+    display: inline-block;
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+}
+#container3 {
+    border-style: solid;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+#b31 {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    
+}
+#b32 {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+}
+#b33 {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+#b34 {
+    display: inline-block;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+#b35 {
+    display: inline-block;
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+}
+#container4 {
+    border-style: solid;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+#b41 {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    
+}
+#b42 {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+}
+#b43 {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+#b44 {
+    display: inline-block;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+#b45 {
+    display: inline-block;
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+}
+#container5 {
+    border-style: solid;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+#b51 {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    
+}
+#b52 {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+}
+#b53 {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+#b54 {
+    display: inline-block;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+#b55 {
+    display: inline-block;
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+}
+#container6 {
+    border-style: solid;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+#b61 {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    
+}
+#b62 {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+}
+#b63 {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+#b64 {
+    display: inline-block;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+#b65 {
+    display: inline-block;
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+}
+
+#container01 {
+    border-style: solid;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+#b01 {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    
+}
+#b02 {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 150px;
+    align-self:flex-end ;
+}
+#b03 {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 50px;
+    width: 150px;
+    align-self: flex-start;
+}
+#b04 {
+    display: inline-block;
+    background-color: brown;
+    height: 50px;
+    width: 150px;
+}
+#b05 {
+    display: inline-block;
+    background-color: chartreuse;
+    height: 50px;
+    width: 150px;
+}
+
+#container91 {
+    border-style: solid;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction:row;
+}
+#b91 {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    flex-shrink:0.1;
+}
+#b92 {
+    display: inline-block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 150px;
+    flex-shrink: 5;
+}
+#b93 {
+    display: inline-block;
+    background-color: aquamarine;
+    height: 50px;
+    width: 150px;
+}
+#b94 {
+    display: inline-block;
+    background-color: brown;
+    height: 50px;
+    width: 150px;
+}
+#b95 {
+    display: inline-block;
+    background-color: chartreuse;
+    height: 50px;
+    width: 150px;
+}
+

@@ -1,0 +1,204 @@
+#new {
+    color: white;
+    text-align: center;
+    background-color: red;
+}
+body {
+    background-color: black;
+}
+#old{
+    color: white;
+    text-align: center;
+}
+p {
+    color: white;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+#p1 {
+    color: red;
+}
+#box {
+    color: white;
+    text-align: center;
+    background-color: blue;
+    width: 300px;
+    margin-left: 600px;
+}
+.heading {
+    color: red;
+    text-align: left;
+}
+#dot {
+    color: white;
+}
+#b1 {
+   background-color: green;
+}
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    text-transform: capitalize;
+}
+#roman {
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+#outer {
+    color: white;
+    font-size: 25px;
+}
+#inner {
+    font-size: 10px;
+}
+#practice {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius:50% ;
+}
+
+#xyz {
+    height: 60px;
+    color:white;
+    background-color: brown;
+    border-color: white;
+    border-style: solid;
+}
+a {
+    margin-right: 200px;
+    color: white;
+    text-decoration: none;
+}
+.hr {
+    color: rgb(234, 144, 41);
+    font-size: 25px;
+}
+.trafic {
+    color: black;
+    background-color: white;
+    height: 170px;
+    width: 70px;
+}
+.segnal {
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 19px;
+}
+.green {
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 19px;
+}
+.yellow {
+    background-color: yellow;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 19px;
+}
+.p4 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    display: inline-block;
+    text-align: center;
+}
+#content {
+    height: 500px;
+}
+footer {
+    color: white;
+    text-align: center;
+}
+footer {
+    background-color:lightcoral;
+}
+.set5 {
+    color: white;
+}
+#set5 {
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    background-image: url(https://plus.unsplash.com/premium_photo-1673643405538-de0f82933fcb?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    text-align: center;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+}
+.navbar {
+    color: aliceblue;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-evenly
+}
+li {
+    display: inline;
+}
+.out {
+    height: 600px;
+    width: 600px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inn {
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+}
+ol {
+    color: aliceblue;
+}
+#m1 {
+    background-color:white;
+    height: 50px;
+    width: 50px;
+}
+@media (max-width: 300px) {
+    #m1 {
+        background-color: green;
+    }
+}
+@media (min-width: 300px) and (max-width:400px) {
+    #m1 {
+        background-color: pink;
+    }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+    #m1 {
+        background-color: red;
+    }
+}
+@media (min-width: 600px) {
+    #m1 {
+        background-color: blue;
+    } 
+}
+.loader {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid white;
+    border-top: 10px solid brown;
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes loader {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

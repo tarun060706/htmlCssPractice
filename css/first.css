@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    background: rgb(171, 171, 84);
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: aliceblue;
+}
+
+pre {
+    color: aliceblue;
+}
+
+#a href {
+    color: red;
+}
+
+section {
+    color: brown;
+}
+
+ol {
+    color: wheat;
+}
+
+table {
+    color: wheat;
+}
+
+button {
+    color: brown; 
+    background: greenyellow;
+}
+
+h4 {
+    color: white;
+}
+
+label {
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+#h1 {
+    font-weight: 100;
+}
